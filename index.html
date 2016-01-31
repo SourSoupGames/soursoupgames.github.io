@@ -1,97 +1,45 @@
 <!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
 <html>
-<style>
-
-  /* Parallax base styles
-  --------------------------------------------- */
-
-  .parallax {
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-    -webkit-perspective: 1px;
-    perspective: 1px;
-  }
-
-  .parallax__layer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-
-  .parallax__layer--base {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-  }
-
-  .parallax__layer--back {
-    -webkit-transform: translateZ(-1px);
-    transform: translateZ(-1px);
-  }
-
-
-  /* demo styles
-  --------------------------------------------- */
-
-  * {
-    margin:0;
-    padding:0;
-  }
-
-  body {
-    font: 100% / 1.5 Arial;
-  }
-
-  .parallax {
-    font-size: 200%;
-  }
-
-   /* add some padding to force scrollbars */
-  .parallax__layer {
-    padding: 100vh 0;
-  }
-
-   /* centre the content in the parallax layers */
-  .title {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
-
-
-  /* misc
-  --------------------------------------------- */
-  .demo__info {
-    position: absolute;
-    z-index:100;
-    bottom: 1vh;
-    top: auto;
-    font-size:80%;
-    text-align:center;
-    width: 100%;
-  }
-</style>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Sour Soup Games</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8" />	
 </head>
 
 <body>
-  <div class="parallax">
-    <div class="parallax__layer parallax__layer--back">
-      <img src="soursoupgameslogo.png">
-    </div>
-    <div class="parallax__layer parallax__layer--base">
-	  <center>
-      <img src="soursoupgameslogo.png">
-	  <center>
-    </div>
-  </div>
-
-</body>
-</html>
-
-<link href="style.css" type="text/css" rel="stylesheet">
+	<div id="background">
+		<div id="page">
+			<div id="header">
+				<a href="index.html" id="logo"></a> <!-- /#logo -->
+				<ul id="navigation">
+					<li class="selected"><a href="index.html">Home</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="games.html">Games</a></li>
+					<li><a href="faq.html">FAQ</a></li>
+					<li><a href="contact-us.html">Contact Us</a></li>
+				</ul>
+			</div> <!-- /#header -->
+			<div id="contents">
+				<div id="main">
+					<div id="adbox">
+						<h1>Who are we?</h1>
+						<img src="images/sale.png"/>
+						
+					</div>
+					<center>
+					<img src ="images/nosphere.png" align="middle"/>
+					</center>
+				</div>
+			</div> <!-- /#contents -->
+			<div id="footer">
+				<div id="description">
+					<p>
+						<center>Copyright &copy; Sour Soup Games</center>
+					</p>
+				</div>
+			</div> <!-- /#footer -->
+		</div> <!-- /#page -->
+	</div> <!-- /#background -->
 </body>
 </html>
