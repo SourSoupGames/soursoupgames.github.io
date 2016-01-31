@@ -1,11 +1,15 @@
 /* Website template by freewebsitetemplates.com */
 html {
 	font-family: 'Montserrat';
+	height: 100%;
 }
 body {
 	background: linear-gradient(to bottom,  #fbfac4 0%,#fdd7aa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	margin: 0;
 	padding-top: 19px;
+	height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #page {
