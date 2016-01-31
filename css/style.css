@@ -9,6 +9,7 @@ body {
 	padding-top: 19px;
 	height: 100%;
     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
@@ -114,7 +115,7 @@ img {
 	color: #755a0b;
 }
 #main address {
-	color: #ffffff;
+	color: #755a0b;
 	font-style: normal;
 	width: 350px;
 	margin: 0 auto;
