@@ -5,7 +5,7 @@ html {
 body {
 	background: linear-gradient(to bottom,  #fbfac4 0%,#fdd7aa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	margin: 0;
-	padding-top: 100px;
+	padding-top: 19px;
 }
 
 #page {
@@ -23,7 +23,7 @@ img {
 /*------------------------------ HEADER ------------------------------*/
 #header {
 	background: url(../images/ssglogotop.png) no-repeat center top;
-	min-height: 420px;
+	min-height: 300px;
 	margin-bottom: 20px;
 }
 
