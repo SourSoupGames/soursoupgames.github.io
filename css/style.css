@@ -22,7 +22,7 @@ img {
 
 /*------------------------------ HEADER ------------------------------*/
 #header {
-	background: url(../images/ssglogo.png) no-repeat center top;
+	background: url(../images/ssglogotop.png) no-repeat center top;
 	min-height: 420px;
 	margin-bottom: 20px;
 }
