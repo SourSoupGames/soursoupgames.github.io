@@ -1,6 +1,6 @@
 /* Website template by freewebsitetemplates.com */
 html {
-	font-family: 'Trebuchet MS', sans-serif, Arial, Helvitica;
+	font-family: 'Montserrat';
 }
 body {
 	background: linear-gradient(to bottom,  #fbfac4 0%,#fdd7aa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -63,7 +63,7 @@ img {
 }
 #infos  a {
 	color: #635320;
-	font-family: Arial;
+	font-family: 'Montserrat';
 	font-size: 14px;
 	line-height: 30px;
 	margin: 0 5px;
@@ -131,7 +131,7 @@ img {
 #main address span {
 	color: #9d7912;
 	display: block;
-	font-family: 'CorbenBold';
+	font-family: 'Montserrat';
 	font-size: 18px;
 	line-height: 20px;
 	margin: 20px 0;
