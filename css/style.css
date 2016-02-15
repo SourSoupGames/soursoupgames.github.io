@@ -236,8 +236,8 @@ img {
 	padding: 0 5px;
 }
 #description {
-	margin: 0 0 30px;
-	padding: 0 0 30px;
+	margin: 0 0 0px;
+	padding: 0 0 0px;
 }
 #description div {
 	float: left;
