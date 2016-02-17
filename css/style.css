@@ -23,7 +23,7 @@ body {
 page[size="A4"] {
   background: linear-gradient(to bottom, #fbfac4 0%,#d6b288 100%);
   width: 29cm;
-  height: 33.5cm;
+  height: 33cm;
   display: block;
   margin: 0 auto;
   margin-bottom: 0;
