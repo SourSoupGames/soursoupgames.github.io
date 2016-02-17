@@ -1,28 +1,81 @@
+*{
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   vertical-align: baseline;
+}
+
 
 html {
 	font-family: 'Montserrat';
 	height: 100%;
 }
-body {
-	background: linear-gradient(to bottom,  #fbfac4 0%,#d6b288 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	margin: 0;
-	padding-top: 19px;
-	height: 100%;
-    background-repeat: no-repeat;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+
+header{
+  margin-bottom: 0px;
 }
 
-#page {
-	width: 960px;
-	margin: 0 auto;
+body {
+  background: rgb(123,74,77); 
 }
+
+page[size="A4"] {
+  background: linear-gradient(to bottom, #fbfac4 0%,#d6b288 100%);
+  width: 29cm;
+  height: 30cm;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+@media print {
+  body, page[size="A4"] {
+    margin: 0;
+    box-shadow: 0;
+  }
+}
+
 
 img {
 	border: 0;
 }
 
 
+nav{
+  
+  background: -webkit-linear-gradient(left,rgba(123,74,77,1),
+  rgba(123,74,77,1),rgba(123,74,77,1));
+
+  background: -moz-linear-gradient(left,rgba(123,74,77,1),
+  rgba(123,74,77,1),rgba(123,74,77,1));
+
+}
+
+ul{
+  list-style: none;
+  text-align: center;
+}
+
+li{
+  display: inline-block;
+}
+
+li a{
+  text-decoration: none;
+  font-size: 41px;
+  color: #FFF;
+  display: block;
+  padding: 30px;
+}
+
+li a:hover{
+  background-color:rgba(100,74,77,0.6);
+}
+
+li a:active{
+  background-color:rgba(123,74,77,0.30);
+}
 
 
 /*------------------------------ HEADER ------------------------------*/
@@ -168,8 +221,6 @@ img {
 	border: 1px solid #e4e0d1;
 }
 
-
-
 /*------------------------------ Shop Page ------------------------------*/
 #shop {
 	padding: 0 0 20px;
@@ -293,11 +344,9 @@ img {
 #background {
 	_height: 1440px;
 }
-
 #featured a.button {
 	_top: 299px;
 }
-
 #blogs {
 	_height: 620px;
 }
