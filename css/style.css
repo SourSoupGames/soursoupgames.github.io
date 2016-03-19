@@ -63,7 +63,7 @@ li{
 
 li a{
   text-decoration: none;
-  font-size: 35px;
+  font-size: 41px;
   color: #FFF;
   display: block;
   padding: 30px;
@@ -125,6 +125,30 @@ li a:active{
 	margin: 0 auto;
 }
 
+/** Navigation **/
+#navigation {
+	height: 40px;
+	list-style-type: none;
+	margin: 0;
+	padding: 50px 20px 12px 0;
+}
+#navigation li {
+	float: left;
+	font-family: 'Montserrat';
+	font-size: 22px;
+	font-weight: bold;
+	line-height: -10px;
+	width: 186px;
+	text-align: center;
+}
+#navigation a {
+	color: #9d7912;
+	text-decoration: none;
+}
+#navigation a:hover, #navigation li.selected a {
+	color: #f9f9f5;
+	text-shadow: 1px 1px 0 #a8840b;
+}
 
 /*------------------------------ CONTENTS ------------------------------*/
 #contents {
