@@ -5,21 +5,6 @@
 	<title>Sour Soup Games</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8" />	
 </head>
-
-<header>
-	<nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="games.html">Games</a></li>
-          <li><a href="faq.html">FAQ</a></li>
-          <li><a href="contact-us.html">Contact Us</a></li>
-        </ul>
-      </nav>
-</header>
-
-<link rel="apple-touch-icon-precomposed" href="images/ssgbowlwhite.png" />
-
 <style>
 @font-face {
 	font-family: 'Montserrat'; 
@@ -34,15 +19,18 @@
 }
 </style>
 <body>
-<page size="A4">
-
 	<div id="background">
 		<div id="page">
-		<center>
-		<br></br>
-		<a href="index.html"><img src="images/ssglogotop.png"></img></a> <!-- /#logo -->
-		
-		<br></br>
+			<div id="header">
+				<a href="index.html" id="logo"></a> <!-- /#logo -->
+				<ul id="navigation">
+					<li><a href="index.html">Home</a></li>
+					<li class="selected"><a href="about.html">About Us</a></li>
+					<li><a href="games.html">Games</a></li>
+					<li><a href="faq.html">FAQ</a></li>
+					<li><a href="contact-us.html">Contact Us</a></li>
+				</ul>
+			</div> <!-- /#header -->
 					<p>
 						<h1>A little bit about us</h1>
 						We are a small development team, working towards making enjoyable games for a variety of platforms.
@@ -66,11 +54,13 @@
 						<img src="images/jamesmugshot.png" align="middle" width="11%" height="11%"/>
 					</p>
 
-			</center>	
+					
 
 			<div id="footer">
 				<div id="description">
-
+					<br></br>
+					<br></br>
+					<br></br>
 					<a target="_blank" href="https://www.facebook.com/SourSoupGames/"><img src="images/facebookresting.png" onmouseover="this.src='images/facebookhover.png'" onmouseout="this.src='images/facebookresting.png'" style="float: right; margin-right: 2%; margin-bottom: 0.5em;"/></a>
 					<a target="_blank" href="https://www.twitter.com/soursoupgames/"><img src="images/twitterresting.png" onmouseover="this.src='images/twitterhover.png'" onmouseout="this.src='images/twitterresting.png'" style="float: right; margin-right: 2%; margin-bottom: 0.5em;"/></a>
 					<br></br>
@@ -81,12 +71,12 @@
 						<br></br>
 						Copyright &copy; Sour Soup Games 2016<br></br>
 						</font></center>
+						<br></br>
+						<br></br>
 					</p>
 				</div>
 			</div> <!-- /#footer -->
 		</div> <!-- /#page -->
 	</div> <!-- /#background -->
-</center>
-</page>
 </body>
 </html>
