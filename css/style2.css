@@ -1,29 +1,34 @@
-/* Website template by freewebsitetemplates.com */
+
 html {
-	font-family: 'Trebuchet MS', sans-serif, Arial, Helvitica;
+	font-family: 'Montserrat';
+	height: 100%;
 }
 body {
-	background: linear-gradient(to bottom,  #fbfac4 0%,#fdd7aa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: linear-gradient(to bottom,  #fbfac4 0%,#d6b288 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	margin: 0;
 	padding-top: 19px;
+	height: 100%;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #page {
 	width: 960px;
 	margin: 0 auto;
 }
-@font-face {
-	font-family: Montserrat; src: url('Montserrat-Regular.ttf'); 
-}
+
 img {
 	border: 0;
 }
 
 
+
+
 /*------------------------------ HEADER ------------------------------*/
 #header {
-	background: url(../images/ssglogo.png) no-repeat center top;
-	min-height: 420px;
+	background: url(../images/ssglogotop.png) no-repeat center top;
+	min-height: 250px;
 	margin-bottom: 20px;
 }
 
@@ -40,18 +45,6 @@ img {
 	margin: 0 10px;
 	padding: 0;
 }
-#connect .facebook {
-	background-position: 0 2px;
-	width: 27px;
-}
-#connect .twitter {
-	background-position: 0 -36px;
-	width: 36px;
-}
-#connect .vimeo {
-	background-position: 0 -74px;
-	width: 32px;
-}
 
 #infos {
 	float: right;
@@ -63,7 +56,7 @@ img {
 }
 #infos  a {
 	color: #635320;
-	font-family: Arial;
+	font-family: 'Montserrat';
 	font-size: 14px;
 	line-height: 30px;
 	margin: 0 5px;
@@ -74,7 +67,7 @@ img {
 #logo {
 	clear: both;
 	display: block;
-	height: 217px;
+	height: 100px;
 	width: 950px;
 	margin: 0 auto;
 }
@@ -91,7 +84,7 @@ img {
 	font-family: 'Montserrat';
 	font-size: 22px;
 	font-weight: bold;
-	line-height: 40px;
+	line-height: -10px;
 	width: 186px;
 	text-align: center;
 }
@@ -122,7 +115,7 @@ img {
 	color: #755a0b;
 }
 #main address {
-	color: #ffffff;
+	color: #755a0b;
 	font-style: normal;
 	width: 350px;
 	margin: 0 auto;
@@ -131,7 +124,7 @@ img {
 #main address span {
 	color: #9d7912;
 	display: block;
-	font-family: 'CorbenBold';
+	font-family: 'Montserrat';
 	font-size: 18px;
 	line-height: 20px;
 	margin: 20px 0;
@@ -243,8 +236,8 @@ img {
 	padding: 0 5px;
 }
 #description {
-	margin: 0 0 30px;
-	padding: 0 0 30px;
+	margin: 0 0 0px;
+	padding: 0 0 0px;
 }
 #description div {
 	float: left;
