@@ -315,7 +315,7 @@ img {
 .arrowSeperator {
 	display: block;
 	text-align: center;
-	border: 1px solid #ddd;
+	border: 1px solid #755a0b;
 	width: 100%;
 	height: 0;
 	position: relative;
@@ -327,7 +327,7 @@ img {
 	height: 0; 
 	border-left: 15px solid transparent; // this is the length of the side of the arrow
 	border-right: 15px solid transparent; // this is the length of the side of the arrow
-	border-bottom: 15px solid #ddd; // set to same color as the line, this is the height of the arrow
+	border-bottom: 15px solid #755a0b; // set to same color as the line, this is the height of the arrow
 	position: absolute;
 	bottom: 100%;
 	left: 50%; // used to center arrow
