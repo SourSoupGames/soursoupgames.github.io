@@ -312,3 +312,18 @@ img {
 	_top: 620px;
 }
 
+$mobile: 768px;
+
+.vertical-divider {
+  align-items: center;
+  display: flex;
+  margin: 0.5rem 0.25rem;
+  border-right: 2px solid #fafafa;
+  border-left: 2px solid #b4b4b4;
+  @media (max-width: $mobile) {
+    border-top: 2px solid #fafafa;
+    border-bottom: 2px solid #b4b4b4;
+    margin: 0;
+  }
+}
+
