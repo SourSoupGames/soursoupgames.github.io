@@ -312,18 +312,45 @@ img {
 	_top: 620px;
 }
 
-$mobile: 768px;
-
-.vertical-divider {
-  align-items: center;
-  display: flex;
-  margin: 0.5rem 0.25rem;
-  border-right: 2px solid #fafafa;
-  border-left: 2px solid #b4b4b4;
-  @media (max-width: $mobile) {
-    border-top: 2px solid #fafafa;
-    border-bottom: 2px solid #b4b4b4;
-    margin: 0;
-  }
+.arrowSeperator {
+	display: block;
+	text-align: center;
+	border: 1px solid #ddd;
+	width: 100%;
+	height: 0;
+	position: relative;
 }
+
+.arrowSeperator:before{
+	content:'';
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent; // this is the length of the side of the arrow
+	border-right: 15px solid transparent; // this is the length of the side of the arrow
+	border-bottom: 15px solid #ddd; // set to same color as the line, this is the height of the arrow
+	position: absolute;
+	bottom: 100%;
+	left: 50%; // used to center arrow
+	right: 50%; // used to center arrow
+	margin: 0 -15px; // left & right offset need to match the width of the arrow to center arrow
+	z-index:1;
+}
+
+// this arrow lays over the other arrow 
+// offset slightly to show a line
+.arrowSeperator:after{
+	content:'';
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent; // this is the length of the side of the arrow
+	border-right: 15px solid transparent; // this is the length of the side of the arrow
+	border-bottom: 15px solid #fff; // set to color of background, this is the height of the arrow
+	position: absolute;
+	bottom: 100%;
+	left: 50%; // used to center arrow
+	right: 50%; // used to center arrow
+	margin: 0 -15px -2px -15px;	// left & right offset need to match the width of the arrow to center arrow
+	z-index: 2;
+}
+
 
