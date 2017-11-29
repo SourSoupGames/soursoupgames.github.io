@@ -5,12 +5,20 @@ html {
 body {
 	background: linear-gradient(to bottom,  #fbfac4 0%,#fdd7aa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	margin: 0;
-	padding-top: 19px;
 }
 
 #page {
-	width: 960px;
-	margin: 0 auto;
+	background:linear-gradient(to bottom,  #fbfac4 0%,#fdd7aa 100%);
+	width: 100%;
+	margin-bottom: 0;
+	margin: auto;
+	padding-top: 20px;
+}
+#pagesorter{
+	display: block;
+	width: 75%;
+	margin-bottom: 0;
+	margin: auto;
 }
 @font-face {
 	font-family: Montserrat; src: url('Montserrat-Regular.ttf'); 
@@ -19,13 +27,20 @@ img {
 	border: 0;
 }
 
+h2{
+	color: #7D484D;
+}
+
 
 /*------------------------------ HEADER ------------------------------*/
 #header {
+	display: block;
+	height: 216px;
+	margin: auto;
 	background: url(../images/ssglogo.png) no-repeat center top;
-	min-height: 420px;
-	margin-bottom: 20px;
+	padding: 20px;
 }
+
 
 #connect {
 	float: left;
@@ -70,181 +85,98 @@ img {
 	text-decoration: none;
 }
 
-/** Logo **/
-#logo {
-	clear: both;
-	display: block;
-	height: 217px;
-	width: 950px;
-	margin: 0 auto;
-}
+
 
 /** Navigation **/
-#navigation {
+nav {
+	position: relative;
 	height: 40px;
-	list-style-type: none;
-	margin: 0;
-	padding: 50px 20px 12px 0;
+	padding: 0;
+	width: 100%;
+	list-style:none;
+	text-align: center;
 }
-#navigation li {
-	float: left;
+
+nav ul{
+	
+	display: inline-block;
+	margin: auto;
+	padding: 0;
+}
+nav ul li {
+	display: inline-block;
 	font-family: 'Montserrat';
 	font-size: 22px;
 	font-weight: bold;
 	line-height: 40px;
-	width: 186px;
+	width: 180px;
 	text-align: center;
+	padding: 0;
+	list-style:none;
+
 }
-#navigation a {
+
+nav ul la {
+	display: inline-block;
+	font-family: 'Montserrat';
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 40px;
+	width: 180px;
+	text-align: center;
+	padding: 0;
+	list-style:none;
+
+}
+nav ul li a {
 	color: #9d7912;
 	text-decoration: none;
 }
-#navigation a:hover, #navigation li.selected a {
+nav ul li a:hover {
 	color: #f9f9f5;
 	text-shadow: 1px 1px 0 #a8840b;
 }
 
-/*------------------------------ CONTENTS ------------------------------*/
-#contents {
-	margin: 0 0 40px;
-	padding: 0 5px;
-}
-
-
-#main p {
-	color: #755a0b;
-	font-size: 14px;
-	line-height: 20px;
-	margin: 0;
-	padding: 0 0 20px;
-}
-#main p a {
-	color: #755a0b;
-}
-#main address {
-	color: #ffffff;
-	font-style: normal;
-	width: 350px;
-	margin: 0 auto;
-	text-align: center;
-}
-#main address span {
+nav ul la a{
+	display: block;
 	color: #9d7912;
-	display: block;
-	font-family: 'CorbenBold';
-	font-size: 18px;
-	line-height: 20px;
-	margin: 20px 0;
-	width: 350px;
-}
-
-#adbox {
-	height: 371px;
-	width: 935px;
-	margin: 0 auto;
-	padding: 7px 7px 220px;
-	position: relative;
-}
-#adbox img {
-	height: 371px;
-	width: 935px;
-	margin: auto;
-}
-
-#featured {
-	padding: 0 0 42px;
-	position: relative;
-}
-#featured ul {
-	display: inline-block;
-	list-style-type: none;
-	margin: 0 auto;
-	padding: 0;
-}
-#featured ul li {
-	float: left;
-	height: 253px;
-	width: 204px;
-	margin-right: 28px;
-	padding: 6px 6px 15px;
-}
-#featured ul li.last {
-	margin-right: 0;
-}
-#featured ul li img {
-	border: 1px solid #e4e0d1;
-}
-
-
-
-/*------------------------------ Shop Page ------------------------------*/
-#shop {
-	padding: 0 0 20px;
-	position: relative;
-}
-#shop ul.items {
-	display: inline-block;
-	list-style-type: none;
-	margin: 0 auto 16px;
-	padding: 0;
-}
-#shop ul.items li {
-	float: left;
-	color: #8f6f05;
-	height: 340px;
-	width: 216px;
-	margin-bottom: 20px;
-	margin-right: 28px;
-}
-#shop ul.items li span {
-	display: block;
-	height: 253px;
-	width: 204px;
-	margin-bottom: 10px;
-	padding: 6px 6px 14px;
-}
-#shop ul.items li span img {
-	border: 1px solid #e4e0d1;
-}
-#shop ul.items li span.price {
-	float: right;
-	background: none;
-	color: #ffffff;
-	display: inine-block;
-	font-size: 17px;
-	height: 20px;
-	line-height: 20px;
-	width: 80px;
-	margin: 0;
-	padding: 0;
-	text-align: right;
-}
-#shop ul.items li a.buy {
-	background-color: #fff36b;
-	color: #8f6f05;
-	display: block;
-	font-family: 'Montserrat';
-	font-size: 14px;
-	height: 20px;
-	line-height: 20px;
-	width: 80px;
-	border-radius: 3px;
-	margin: 13px auto 0;
-	padding: 1px 0 4px;
-	text-align: center;
 	text-decoration: none;
+	transform: rotate(7deg);
 }
-#shop ul.items li.last {
-	margin-right: 0;
+
+nav ul la a:hover{	
+	color: #f9f9f5;
+	text-shadow: 1px 1px 0 #a8840b;
+	transform: rotate(0deg);
+}
+
+#thirdspacer{
+	
+	display: block;
+	height: 66px;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+#spacer{
+	display: block;
+	height: 200px;
+	width: 100%;
+	margin: auto;
+	text-align: center;
 }
 
 /*------------------------------ FOOTER ------------------------------*/
 #footer {
+	display:block;
+	width: 100%;
+	margin: auto;
+	text-align: center;
 	padding: 0 5px;
 }
 #description {
-	margin: 0 0 30px;
-	padding: 0 0 30px;
+
 }
 #description div {
 	float: left;
@@ -296,19 +228,114 @@ img {
 	color: #9d7912;
 }
 
-/*------------------------------ For IE6 ------------------------------*/
-#background {
-	_height: 1440px;
+
+#soupbarbottom{
+	height: 50px;
+	width: 100%;
+	background: url(../images/soursoup.png) 0px 0px/356px 50px repeat-x;
 }
 
-#featured a.button {
-	_top: 299px;
+
+/*------------------------------ OTHER STUFF ------------------------------*/
+
+.arrowSeperator {
+	display: block;
+	text-align: center;
+	border: 1px solid #755a0b;
+	width: 100%;
+	height: 0;
+	position: relative;
 }
 
-#blogs {
-	_height: 620px;
+.arrowSeperator:before{
+	content:'';
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent; // this is the length of the side of the arrow
+	border-right: 15px solid transparent; // this is the length of the side of the arrow
+	border-bottom: 15px solid #755a0b; // set to same color as the line, this is the height of the arrow
+	position: absolute;
+	bottom: 100%;
+	left: 50%; // used to center arrow
+	right: 50%; // used to center arrow
+	margin: 0 -15px; // left & right offset need to match the width of the arrow to center arrow
+	z-index:1;
 }
-#blogs div.buttons, #blogs div.blog-entry-buttons {
-	_top: 620px;
+
+// this arrow lays over the other arrow 
+// offset slightly to show a line
+.arrowSeperator:after{
+	content:'';
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent; // this is the length of the side of the arrow
+	border-right: 15px solid transparent; // this is the length of the side of the arrow
+	border-bottom: 15px solid #fff; // set to color of background, this is the height of the arrow
+	position: absolute;
+	bottom: 100%;
+	left: 50%; // used to center arrow
+	right: 50%; // used to center arrow
+	margin: 0 -15px -2px -15px;	// left & right offset need to match the width of the arrow to center arrow
+	z-index: 2;
 }
+
+.charHeader1{
+	font-size: 24px;
+	width: 160px;
+}
+
+.charHeader2{
+	font-size: 32px;
+	width: 32px;
+}
+
+.characterBox{
+	display:inline-block;
+}
+
+.characterBoxes{
+	width: 160px;
+	padding: 20px;
+	float:left;
+	text-align: center;
+}
+
+.FlexEmbed {
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+.FlexEmbed:before {
+  content: "";
+  display: block;
+  width: 100%;
+}
+
+.FlexEmbed--3by1:before {
+  padding-bottom: 33.33333%;
+}
+
+.FlexEmbed--2by1:before {
+  padding-bottom: 50%;
+}
+
+.FlexEmbed--16by9:before {
+  padding-bottom: 56.25%;
+}
+
+.FlexEmbed--4by3:before {
+  padding-bottom: 75%;
+}
+
+.CoverImage {
+  background-image: url(../images/ssglogo.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto 1em;
+  max-height: 217px;
+  max-width: 931px;
+}
+
 
