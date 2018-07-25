@@ -31,6 +31,10 @@ h2{
 	color: #7D484D;
 }
 
+h3{
+	color: #7D484D;
+}
+
 #smallpara{
 	display: block;
 	margin: auto;
@@ -97,7 +101,7 @@ h2{
 
 /** Navigation **/
 nav {
-	position: relative;
+	display: inline-block;
 	height: 40px;
 	padding: 0;
 	width: 100%;
@@ -168,7 +172,7 @@ nav ul la a:hover{
 }
 
 #spacerleft{
-	display: block;
+	display: inline-block;
 	height: 200px;
 	width: 100%;
 	margin: auto;
@@ -178,11 +182,10 @@ nav ul la a:hover{
 
 #spacer{
 	display: block;
-	height: 200px;
 	width: 50%;
 	margin: auto;
-	padding: 50px;
-	text-align: center;
+	padding: 25px;
+	text-align: left;
 }
 
 /*------------------------------ FOOTER ------------------------------*/
